@@ -38,9 +38,17 @@ jobs:
         run: python3 scanner/ci_pages.py
 
       - name: Configure GitHub Pages
+        id: pages
+        continue-on-error: true
         uses: actions/configure-pages@v5
         with:
           enablement: true
+
+      - name: Pages must be switched on
+        if: steps.pages.outcome != 'success'
+        run: |
+          echo "::error title=Turn on GitHub Pages::Actions could not turn GitHub Pages on by itself. On GitHub open Settings, then Pages, then Build and deployment, and set Source to GitHub Actions. Then open the Actions tab and re-run this workflow."
+          exit 1
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
