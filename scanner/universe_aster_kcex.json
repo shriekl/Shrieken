@@ -1,0 +1,3972 @@
+{
+ "updated_ts": 1792704121,
+ "updated": "2026-10-23 02:52 IST",
+ "aster_count": 563,
+ "kcex_count": 811,
+ "kcex_source": "tradingview (kcex api failed: 403 Client Error: Forbidden for url: https://www.kcex.com/fapi/v1/contract/detai)",
+ "excluded_noncrypto": [
+  "AAPL",
+  "AMD",
+  "AMZN",
+  "AVGO",
+  "BABA",
+  "BZ",
+  "CL",
+  "COIN",
+  "CRCL",
+  "DIS",
+  "GME",
+  "GOOGL",
+  "HOOD",
+  "IBM",
+  "INTC",
+  "META",
+  "MSFT",
+  "MSTR",
+  "MU",
+  "NFLX",
+  "NVDA",
+  "ORCL",
+  "PAXG",
+  "PLTR",
+  "QQQ",
+  "SNDK",
+  "SPY",
+  "TSLA",
+  "TSM",
+  "UBER",
+  "XAG",
+  "XAU",
+  "XPD",
+  "XPT"
+ ],
+ "coins": [
+  {
+   "base": "0G",
+   "pair": "0GUSDT",
+   "aster": "0GUSDT",
+   "kcex": "0GUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "2Z",
+   "pair": "2ZUSDT",
+   "aster": "2ZUSDT",
+   "kcex": "2ZUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "4",
+   "pair": "4USDT",
+   "aster": "4USDT",
+   "kcex": "4USDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "4STOCK",
+   "pair": "4STOCKUSDT",
+   "aster": "4STOCKUSDT",
+   "kcex": "4STOCKUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AAOI",
+   "pair": "AAOIUSDT",
+   "aster": "AAOIUSDT",
+   "kcex": "AAOIUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "AAVE",
+   "pair": "AAVEUSDT",
+   "aster": "AAVEUSDT",
+   "kcex": "AAVEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ACE",
+   "pair": "ACEUSDT",
+   "aster": "ACEUSDT",
+   "kcex": "ACEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ACU",
+   "pair": "ACUUSDT",
+   "aster": "ACUUSDT",
+   "kcex": "ACUUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ADA",
+   "pair": "ADAUSDT",
+   "aster": "ADAUSDT",
+   "kcex": "ADAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ADBE",
+   "pair": "ADBEUSDT",
+   "aster": "ADBEUSDT",
+   "kcex": "ADBEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "AEON",
+   "pair": "AEONUSDT",
+   "aster": "AEONUSDT",
+   "kcex": "AEONUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AERO",
+   "pair": "AEROUSDT",
+   "aster": "AEROUSDT",
+   "kcex": "AEROUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AEVO",
+   "pair": "AEVOUSDT",
+   "aster": "AEVOUSDT",
+   "kcex": "AEVOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AGPU",
+   "pair": "AGPUUSDT",
+   "aster": "AGPUUSDT",
+   "kcex": "AGPUUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "AGT",
+   "pair": "AGTUSDT",
+   "aster": "AGTUSDT",
+   "kcex": "AGTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AI",
+   "pair": "AIUSDT",
+   "aster": "AIUSDT",
+   "kcex": "AIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AIA",
+   "pair": "AIAUSDT",
+   "aster": "AIAUSDT",
+   "kcex": "AIAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AIN",
+   "pair": "AINUSDT",
+   "aster": "AINUSDT",
+   "kcex": "AINUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AIO",
+   "pair": "AIOUSDT",
+   "aster": "AIOUSDT",
+   "kcex": "AIOUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AIOT",
+   "pair": "AIOTUSDT",
+   "aster": "AIOTUSDT",
+   "kcex": "AIOTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AKE",
+   "pair": "AKEUSDT",
+   "aster": "AKEUSDT",
+   "kcex": "AKEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ALCH",
+   "pair": "ALCHUSDT",
+   "aster": "ALCHUSDT",
+   "kcex": "ALCHUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ALGO",
+   "pair": "ALGOUSDT",
+   "aster": "ALGOUSDT",
+   "kcex": "ALGOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ALICE",
+   "pair": "ALICEUSDT",
+   "aster": "ALICEUSDT",
+   "kcex": "ALICEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ALLO",
+   "pair": "ALLOUSDT",
+   "aster": "ALLOUSDT",
+   "kcex": "ALLOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AMAT",
+   "pair": "AMATUSDT",
+   "aster": "AMATUSDT",
+   "kcex": "AMATUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ANIME",
+   "pair": "ANIMEUSDT",
+   "aster": "ANIMEUSDT",
+   "kcex": "ANIMEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ANSEM",
+   "pair": "ANSEMUSDT",
+   "aster": "ANSEMUSDT",
+   "kcex": "ANSEMUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ANTHROPIC",
+   "pair": "ANTHROPICUSDT",
+   "aster": "ANTHROPICUSDT",
+   "kcex": "ANTHROPICUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "APE",
+   "pair": "APEUSDT",
+   "aster": "APEUSDT",
+   "kcex": "APEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "API3",
+   "pair": "API3USDT",
+   "aster": "API3USDT",
+   "kcex": "API3USDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "APR",
+   "pair": "APRUSDT",
+   "aster": "APRUSDT",
+   "kcex": "APRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "APT",
+   "pair": "APTUSDT",
+   "aster": "APTUSDT",
+   "kcex": "APTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AR",
+   "pair": "ARUSDT",
+   "aster": "ARUSDT",
+   "kcex": "ARUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ARB",
+   "pair": "ARBUSDT",
+   "aster": "ARBUSDT",
+   "kcex": "ARBUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ARC",
+   "pair": "ARCUSDT",
+   "aster": "ARCUSDT",
+   "kcex": "ARCUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ARIA",
+   "pair": "ARIAUSDT",
+   "aster": "ARIAUSDT",
+   "kcex": "ARIAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ARKM",
+   "pair": "ARKMUSDT",
+   "aster": "ARKMUSDT",
+   "kcex": "ARKMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ARM",
+   "pair": "ARMUSDT",
+   "aster": "ARMUSDT",
+   "kcex": "ARMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ARPA",
+   "pair": "ARPAUSDT",
+   "aster": "ARPAUSDT",
+   "kcex": "ARPAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ARX",
+   "pair": "ARXUSDT",
+   "aster": "ARXUSDT",
+   "kcex": "ARXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ASML",
+   "pair": "ASMLUSDT",
+   "aster": "ASMLUSDT",
+   "kcex": "ASMLUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ASTER",
+   "pair": "ASTERUSDT",
+   "aster": "ASTERUSDT",
+   "kcex": "ASTERUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ASTS",
+   "pair": "ASTSUSDT",
+   "aster": "ASTSUSDT",
+   "kcex": "ASTSUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "AT",
+   "pair": "ATUSDT",
+   "aster": "ATUSDT",
+   "kcex": "ATUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ATH",
+   "pair": "ATHUSDT",
+   "aster": "ATHUSDT",
+   "kcex": "ATHUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ATOM",
+   "pair": "ATOMUSDT",
+   "aster": "ATOMUSDT",
+   "kcex": "ATOMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AUCTION",
+   "pair": "AUCTIONUSDT",
+   "aster": "AUCTIONUSDT",
+   "kcex": "AUCTIONUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AVA",
+   "pair": "AVAUSDT",
+   "aster": "AVAUSDT",
+   "kcex": "AVAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AVAAI",
+   "pair": "AVAAIUSDT",
+   "aster": "AVAAIUSDT",
+   "kcex": "AVAAIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AVAX",
+   "pair": "AVAXUSDT",
+   "aster": "AVAXUSDT",
+   "kcex": "AVAXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AVNT",
+   "pair": "AVNTUSDT",
+   "aster": "AVNTUSDT",
+   "kcex": "AVNTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AWE",
+   "pair": "AWEUSDT",
+   "aster": "AWEUSDT",
+   "kcex": "AWEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AXIS",
+   "pair": "AXISUSDT",
+   "aster": "AXISUSDT",
+   "kcex": "AXISUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "AXL",
+   "pair": "AXLUSDT",
+   "aster": "AXLUSDT",
+   "kcex": "AXLUSDT.P",
+   "binance": true,
+   "mexc": false
+  },
+  {
+   "base": "AXS",
+   "pair": "AXSUSDT",
+   "aster": "AXSUSDT",
+   "kcex": "AXSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "AXTI",
+   "pair": "AXTIUSDT",
+   "aster": "AXTIUSDT",
+   "kcex": "AXTIUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "AZTEC",
+   "pair": "AZTECUSDT",
+   "aster": "AZTECUSDT",
+   "kcex": "AZTECUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "B",
+   "pair": "BUSDT",
+   "aster": "BUSDT",
+   "kcex": "BUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "B2",
+   "pair": "B2USDT",
+   "aster": "B2USDT",
+   "kcex": "B2USDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BABY",
+   "pair": "BABYUSDT",
+   "aster": "BABYUSDT",
+   "kcex": "BABYUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BAN",
+   "pair": "BANUSDT",
+   "aster": "BANUSDT",
+   "kcex": "BANUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BANANAS31",
+   "pair": "BANANAS31USDT",
+   "aster": "BANANAS31USDT",
+   "kcex": "BANANAS31USDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BANK",
+   "pair": "BANKUSDT",
+   "aster": "BANKUSDT",
+   "kcex": "BANKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BARD",
+   "pair": "BARDUSDT",
+   "aster": "BARDUSDT",
+   "kcex": "BARDUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BAS",
+   "pair": "BASUSDT",
+   "aster": "BASUSDT",
+   "kcex": "BASUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BASECAT",
+   "pair": "BASECATUSDT",
+   "aster": "BASECATUSDT",
+   "kcex": "BASECATUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BASED",
+   "pair": "BASEDUSDT",
+   "aster": "BASEDUSDT",
+   "kcex": "BASEDUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BAT",
+   "pair": "BATUSDT",
+   "aster": "BATUSDT",
+   "kcex": "BATUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BB",
+   "pair": "BBUSDT",
+   "aster": "BBUSDT",
+   "kcex": "BBUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BBX",
+   "pair": "BBXUSDT",
+   "aster": "BBXUSDT",
+   "kcex": "BBXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "BCH",
+   "pair": "BCHUSDT",
+   "aster": "BCHUSDT",
+   "kcex": "BCHUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BE",
+   "pair": "BEUSDT",
+   "aster": "BEUSDT",
+   "kcex": "BEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "BEAT",
+   "pair": "BEATUSDT",
+   "aster": "BEATUSDT",
+   "kcex": "BEATUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BEL",
+   "pair": "BELUSDT",
+   "aster": "BELUSDT",
+   "kcex": "BELUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BERA",
+   "pair": "BERAUSDT",
+   "aster": "BERAUSDT",
+   "kcex": "BERAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BICO",
+   "pair": "BICOUSDT",
+   "aster": "BICOUSDT",
+   "kcex": "BICOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BILL",
+   "pair": "BILLUSDT",
+   "aster": "BILLUSDT",
+   "kcex": "BILLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BIO",
+   "pair": "BIOUSDT",
+   "aster": "BIOUSDT",
+   "kcex": "BIOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BIRB",
+   "pair": "BIRBUSDT",
+   "aster": "BIRBUSDT",
+   "kcex": "BIRBUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BLESS",
+   "pair": "BLESSUSDT",
+   "aster": "BLESSUSDT",
+   "kcex": "BLESSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BLUAI",
+   "pair": "BLUAIUSDT",
+   "aster": "BLUAIUSDT",
+   "kcex": "BLUAIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BLUR",
+   "pair": "BLURUSDT",
+   "aster": "BLURUSDT",
+   "kcex": "BLURUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BMNR",
+   "pair": "BMNRUSDT",
+   "aster": "BMNRUSDT",
+   "kcex": "BMNRUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "BMT",
+   "pair": "BMTUSDT",
+   "aster": "BMTUSDT",
+   "kcex": "BMTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BNB",
+   "pair": "BNBUSDT",
+   "aster": "BNBUSDT",
+   "kcex": "BNBUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BOME",
+   "pair": "BOMEUSDT",
+   "aster": "BOMEUSDT",
+   "kcex": "BOMEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BONK",
+   "pair": "BONKUSDT",
+   "aster": "1000BONKUSDT",
+   "kcex": "BONKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BR",
+   "pair": "BRUSDT",
+   "aster": "BRUSDT",
+   "kcex": "BRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BREV",
+   "pair": "BREVUSDT",
+   "aster": "BREVUSDT",
+   "kcex": "BREVUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BRKB",
+   "pair": "BRKBUSDT",
+   "aster": "BRKBUSDT",
+   "kcex": "BRKBUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "BSB",
+   "pair": "BSBUSDT",
+   "aster": "BSBUSDT",
+   "kcex": "BSBUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BTC",
+   "pair": "BTCUSDT",
+   "aster": "BTCUSDT",
+   "kcex": "BTCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "BTR",
+   "pair": "BTRUSDT",
+   "aster": "BTRUSDT",
+   "kcex": "BTRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BTW",
+   "pair": "BTWUSDT",
+   "aster": "BTWUSDT",
+   "kcex": "BTWUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BULLA",
+   "pair": "BULLAUSDT",
+   "aster": "BULLAUSDT",
+   "kcex": "BULLAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "BX",
+   "pair": "BXUSDT",
+   "aster": "BXUSDT",
+   "kcex": "BXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "C",
+   "pair": "CUSDT",
+   "aster": "CUSDT",
+   "kcex": "CUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CAKE",
+   "pair": "CAKEUSDT",
+   "aster": "CAKEUSDT",
+   "kcex": "CAKEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CAP",
+   "pair": "CAPUSDT",
+   "aster": "CAPUSDT",
+   "kcex": "CAPUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CASHCAT",
+   "pair": "CASHCATUSDT",
+   "aster": "CASHCATUSDT",
+   "kcex": "CASHCATUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CAT",
+   "pair": "CATUSDT",
+   "aster": "1000CATUSDT",
+   "kcex": "CATUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CBRS",
+   "pair": "CBRSUSDT",
+   "aster": "CBRSUSDT",
+   "kcex": "CBRSUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CC",
+   "pair": "CCUSDT",
+   "aster": "CCUSDT",
+   "kcex": "CCUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CFG",
+   "pair": "CFGUSDT",
+   "aster": "CFGUSDT",
+   "kcex": "CFGUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CFX",
+   "pair": "CFXUSDT",
+   "aster": "CFXUSDT",
+   "kcex": "CFXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CHEEMS",
+   "pair": "CHEEMSUSDT",
+   "aster": "1000CHEEMSUSDT",
+   "kcex": "CHEEMSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CHILLGUY",
+   "pair": "CHILLGUYUSDT",
+   "aster": "CHILLGUYUSDT",
+   "kcex": "CHILLGUYUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CHIP",
+   "pair": "CHIPUSDT",
+   "aster": "CHIPUSDT",
+   "kcex": "CHIPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CHZ",
+   "pair": "CHZUSDT",
+   "aster": "CHZUSDT",
+   "kcex": "CHZUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CLANKER",
+   "pair": "CLANKERUSDT",
+   "aster": "CLANKERUSDT",
+   "kcex": "CLANKERUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CLO",
+   "pair": "CLOUSDT",
+   "aster": "CLOUSDT",
+   "kcex": "CLOUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "COAI",
+   "pair": "COAIUSDT",
+   "aster": "COAIUSDT",
+   "kcex": "COAIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "COHR",
+   "pair": "COHRUSDT",
+   "aster": "COHRUSDT",
+   "kcex": "COHRUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "COLLECT",
+   "pair": "COLLECTUSDT",
+   "aster": "COLLECTUSDT",
+   "kcex": "COLLECTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "COST",
+   "pair": "COSTUSDT",
+   "aster": "COSTUSDT",
+   "kcex": "COSTUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "COTI",
+   "pair": "COTIUSDT",
+   "aster": "COTIUSDT",
+   "kcex": "COTIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "COW",
+   "pair": "COWUSDT",
+   "aster": "COWUSDT",
+   "kcex": "COWUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CRDO",
+   "pair": "CRDOUSDT",
+   "aster": "CRDOUSDT",
+   "kcex": "CRDOUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CRM",
+   "pair": "CRMUSDT",
+   "aster": "CRMUSDT",
+   "kcex": "CRMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CRV",
+   "pair": "CRVUSDT",
+   "aster": "CRVUSDT",
+   "kcex": "CRVUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CRWD",
+   "pair": "CRWDUSDT",
+   "aster": "CRWDUSDT",
+   "kcex": "CRWDUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CRWV",
+   "pair": "CRWVUSDT",
+   "aster": "CRWVUSDT",
+   "kcex": "CRWVUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CSCO",
+   "pair": "CSCOUSDT",
+   "aster": "CSCOUSDT",
+   "kcex": "CSCOUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CT",
+   "pair": "CTUSDT",
+   "aster": "CTUSDT",
+   "kcex": "CTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CTR",
+   "pair": "CTRUSDT",
+   "aster": "CTRUSDT",
+   "kcex": "CTRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "CXMT",
+   "pair": "CXMTUSDT",
+   "aster": "CXMTUSDT",
+   "kcex": "CXMTUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "CYBER",
+   "pair": "CYBERUSDT",
+   "aster": "CYBERUSDT",
+   "kcex": "CYBERUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "CYS",
+   "pair": "CYSUSDT",
+   "aster": "CYSUSDT",
+   "kcex": "CYSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "DASH",
+   "pair": "DASHUSDT",
+   "aster": "DASHUSDT",
+   "kcex": "DASHUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DELL",
+   "pair": "DELLUSDT",
+   "aster": "DELLUSDT",
+   "kcex": "DELLUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "DEXE",
+   "pair": "DEXEUSDT",
+   "aster": "DEXEUSDT",
+   "kcex": "DEXEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DKNG",
+   "pair": "DKNGUSDT",
+   "aster": "DKNGUSDT",
+   "kcex": "DKNGUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "DNA",
+   "pair": "DNAUSDT",
+   "aster": "DNAUSDT",
+   "kcex": "DNAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "DOGE",
+   "pair": "DOGEUSDT",
+   "aster": "DOGEUSDT",
+   "kcex": "DOGEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DOGS",
+   "pair": "DOGSUSDT",
+   "aster": "DOGSUSDT",
+   "kcex": "DOGSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DOLO",
+   "pair": "DOLOUSDT",
+   "aster": "DOLOUSDT",
+   "kcex": "DOLOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DOOD",
+   "pair": "DOODUSDT",
+   "aster": "DOODUSDT",
+   "kcex": "DOODUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "DOS",
+   "pair": "DOSUSDT",
+   "aster": "DOSUSDT",
+   "kcex": "DOSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "DOT",
+   "pair": "DOTUSDT",
+   "aster": "DOTUSDT",
+   "kcex": "DOTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DRAM",
+   "pair": "DRAMUSDT",
+   "aster": "DRAMUSDT",
+   "kcex": "DRAMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "DUSK",
+   "pair": "DUSKUSDT",
+   "aster": "DUSKUSDT",
+   "kcex": "DUSKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DYDX",
+   "pair": "DYDXUSDT",
+   "aster": "DYDXUSDT",
+   "kcex": "DYDXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "DYM",
+   "pair": "DYMUSDT",
+   "aster": "DYMUSDT",
+   "kcex": "DYMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "EBAY",
+   "pair": "EBAYUSDT",
+   "aster": "EBAYUSDT",
+   "kcex": "EBAYUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "EDEN",
+   "pair": "EDENUSDT",
+   "aster": "EDENUSDT",
+   "kcex": "EDENUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "EDGE",
+   "pair": "EDGEUSDT",
+   "aster": "EDGEUSDT",
+   "kcex": "EDGEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "EDU",
+   "pair": "EDUUSDT",
+   "aster": "EDUUSDT",
+   "kcex": "EDUUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "EIGEN",
+   "pair": "EIGENUSDT",
+   "aster": "EIGENUSDT",
+   "kcex": "EIGENUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ELSA",
+   "pair": "ELSAUSDT",
+   "aster": "ELSAUSDT",
+   "kcex": "ELSAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ENA",
+   "pair": "ENAUSDT",
+   "aster": "ENAUSDT",
+   "kcex": "ENAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ENS",
+   "pair": "ENSUSDT",
+   "aster": "ENSUSDT",
+   "kcex": "ENSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ENSO",
+   "pair": "ENSOUSDT",
+   "aster": "ENSOUSDT",
+   "kcex": "ENSOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ERA",
+   "pair": "ERAUSDT",
+   "aster": "ERAUSDT",
+   "kcex": "ERAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ESP",
+   "pair": "ESPUSDT",
+   "aster": "ESPUSDT",
+   "kcex": "ESPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ESPORTS",
+   "pair": "ESPORTSUSDT",
+   "aster": "ESPORTSUSDT",
+   "kcex": "ESPORTSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ETC",
+   "pair": "ETCUSDT",
+   "aster": "ETCUSDT",
+   "kcex": "ETCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ETH",
+   "pair": "ETHUSDT",
+   "aster": "ETHUSDT",
+   "kcex": "ETHUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ETHFI",
+   "pair": "ETHFIUSDT",
+   "aster": "ETHFIUSDT",
+   "kcex": "ETHFIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "EUL",
+   "pair": "EULUSDT",
+   "aster": "EULUSDT",
+   "kcex": "EULUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "EVAA",
+   "pair": "EVAAUSDT",
+   "aster": "EVAAUSDT",
+   "kcex": "EVAAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "EWJ",
+   "pair": "EWJUSDT",
+   "aster": "EWJUSDT",
+   "kcex": "EWJUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "EWT",
+   "pair": "EWTUSDT",
+   "aster": "EWTUSDT",
+   "kcex": "EWTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "EWY",
+   "pair": "EWYUSDT",
+   "aster": "EWYUSDT",
+   "kcex": "EWYUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "EWZ",
+   "pair": "EWZUSDT",
+   "aster": "EWZUSDT",
+   "kcex": "EWZUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "F",
+   "pair": "FUSDT",
+   "aster": "FUSDT",
+   "kcex": "FUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FARTCOIN",
+   "pair": "FARTCOINUSDT",
+   "aster": "FARTCOINUSDT",
+   "kcex": "FARTCOINUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "FET",
+   "pair": "FETUSDT",
+   "aster": "FETUSDT",
+   "kcex": "FETUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FF",
+   "pair": "FFUSDT",
+   "aster": "FFUSDT",
+   "kcex": "FFUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FHE",
+   "pair": "FHEUSDT",
+   "aster": "FHEUSDT",
+   "kcex": "FHEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "FIDA",
+   "pair": "FIDAUSDT",
+   "aster": "FIDAUSDT",
+   "kcex": "FIDAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FIGHT",
+   "pair": "FIGHTUSDT",
+   "aster": "FIGHTUSDT",
+   "kcex": "FIGHTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "FIL",
+   "pair": "FILUSDT",
+   "aster": "FILUSDT",
+   "kcex": "FILUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FLNC",
+   "pair": "FLNCUSDT",
+   "aster": "FLNCUSDT",
+   "kcex": "FLNCUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "FLOCK",
+   "pair": "FLOCKUSDT",
+   "aster": "FLOCKUSDT",
+   "kcex": "FLOCKUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "FLOKI",
+   "pair": "FLOKIUSDT",
+   "aster": "1000FLOKIUSDT",
+   "kcex": "FLOKIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FLOW",
+   "pair": "FLOWUSDT",
+   "aster": "FLOWUSDT",
+   "kcex": "FLOWUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FLUX",
+   "pair": "FLUXUSDT",
+   "aster": "FLUXUSDT",
+   "kcex": "FLUXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FOGO",
+   "pair": "FOGOUSDT",
+   "aster": "FOGOUSDT",
+   "kcex": "FOGOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FOLKS",
+   "pair": "FOLKSUSDT",
+   "aster": "FOLKSUSDT",
+   "kcex": "FOLKSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "FORM",
+   "pair": "FORMUSDT",
+   "aster": "FORMUSDT",
+   "kcex": "FORMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FRAX",
+   "pair": "FRAXUSDT",
+   "aster": "FRAXUSDT",
+   "kcex": "FRAXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "FUN",
+   "pair": "FUNUSDT",
+   "aster": "FUNUSDT",
+   "kcex": "FUNUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "G",
+   "pair": "GUSDT",
+   "aster": "GUSDT",
+   "kcex": "GUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GALA",
+   "pair": "GALAUSDT",
+   "aster": "GALAUSDT",
+   "kcex": "GALAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GENIUS",
+   "pair": "GENIUSUSDT",
+   "aster": "GENIUSUSDT",
+   "kcex": "GENIUSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GIGGLE",
+   "pair": "GIGGLEUSDT",
+   "aster": "GIGGLEUSDT",
+   "kcex": "GIGGLEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GLW",
+   "pair": "GLWUSDT",
+   "aster": "GLWUSDT",
+   "kcex": "GLWUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "GMT",
+   "pair": "GMTUSDT",
+   "aster": "GMTUSDT",
+   "kcex": "GMTUSDT.P",
+   "binance": true,
+   "mexc": false
+  },
+  {
+   "base": "GPS",
+   "pair": "GPSUSDT",
+   "aster": "GPSUSDT",
+   "kcex": "GPSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GRAM",
+   "pair": "GRAMUSDT",
+   "aster": "GRAMUSDT",
+   "kcex": "GRAMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GRASS",
+   "pair": "GRASSUSDT",
+   "aster": "GRASSUSDT",
+   "kcex": "GRASSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "GRIFFAIN",
+   "pair": "GRIFFAINUSDT",
+   "aster": "GRIFFAINUSDT",
+   "kcex": "GRIFFAINUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "GRVT",
+   "pair": "GRVTUSDT",
+   "aster": "GRVTUSDT",
+   "kcex": "GRVTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "GTC",
+   "pair": "GTCUSDT",
+   "aster": "GTCUSDT",
+   "kcex": "GTCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GUA",
+   "pair": "GUAUSDT",
+   "aster": "GUAUSDT",
+   "kcex": "GUAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "GUN",
+   "pair": "GUNUSDT",
+   "aster": "GUNUSDT",
+   "kcex": "GUNUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "GWEI",
+   "pair": "GWEIUSDT",
+   "aster": "GWEIUSDT",
+   "kcex": "GWEIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "H",
+   "pair": "HUSDT",
+   "aster": "HUSDT",
+   "kcex": "HUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "HANA",
+   "pair": "HANAUSDT",
+   "aster": "HANAUSDT",
+   "kcex": "HANAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "HBAR",
+   "pair": "HBARUSDT",
+   "aster": "HBARUSDT",
+   "kcex": "HBARUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HD",
+   "pair": "HDUSDT",
+   "aster": "HDUSDT",
+   "kcex": "HDUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "HEI",
+   "pair": "HEIUSDT",
+   "aster": "HEIUSDT",
+   "kcex": "HEIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HEMI",
+   "pair": "HEMIUSDT",
+   "aster": "HEMIUSDT",
+   "kcex": "HEMIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HIMS",
+   "pair": "HIMSUSDT",
+   "aster": "HIMSUSDT",
+   "kcex": "HIMSUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "HMSTR",
+   "pair": "HMSTRUSDT",
+   "aster": "HMSTRUSDT",
+   "kcex": "HMSTRUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HOLO",
+   "pair": "HOLOUSDT",
+   "aster": "HOLOUSDT",
+   "kcex": "HOLOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HOME",
+   "pair": "HOMEUSDT",
+   "aster": "HOMEUSDT",
+   "kcex": "HOMEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HPE",
+   "pair": "HPEUSDT",
+   "aster": "HPEUSDT",
+   "kcex": "HPEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "HUMA",
+   "pair": "HUMAUSDT",
+   "aster": "HUMAUSDT",
+   "kcex": "HUMAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HYPE",
+   "pair": "HYPEUSDT",
+   "aster": "HYPEUSDT",
+   "kcex": "HYPEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HYPER",
+   "pair": "HYPERUSDT",
+   "aster": "HYPERUSDT",
+   "kcex": "HYPERUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "HYUNDAI",
+   "pair": "HYUNDAIUSDT",
+   "aster": "HYUNDAIUSDT",
+   "kcex": "HYUNDAIUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ICP",
+   "pair": "ICPUSDT",
+   "aster": "ICPUSDT",
+   "kcex": "ICPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ID",
+   "pair": "IDUSDT",
+   "aster": "IDUSDT",
+   "kcex": "IDUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "IDOL",
+   "pair": "IDOLUSDT",
+   "aster": "IDOLUSDT",
+   "kcex": "IDOLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "IN",
+   "pair": "INUSDT",
+   "aster": "INUSDT",
+   "kcex": "INUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "INIT",
+   "pair": "INITUSDT",
+   "aster": "INITUSDT",
+   "kcex": "INITUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "INJ",
+   "pair": "INJUSDT",
+   "aster": "INJUSDT",
+   "kcex": "INJUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "INX",
+   "pair": "INXUSDT",
+   "aster": "INXUSDT",
+   "kcex": "INXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "IO",
+   "pair": "IOUSDT",
+   "aster": "IOUSDT",
+   "kcex": "IOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "IOTX",
+   "pair": "IOTXUSDT",
+   "aster": "IOTXUSDT",
+   "kcex": "IOTXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "IREN",
+   "pair": "IRENUSDT",
+   "aster": "IRENUSDT",
+   "kcex": "IRENUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "IRYS",
+   "pair": "IRYSUSDT",
+   "aster": "IRYSUSDT",
+   "kcex": "IRYSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "IWM",
+   "pair": "IWMUSDT",
+   "aster": "IWMUSDT",
+   "kcex": "IWMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "JASMY",
+   "pair": "JASMYUSDT",
+   "aster": "JASMYUSDT",
+   "kcex": "JASMYUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "JCT",
+   "pair": "JCTUSDT",
+   "aster": "JCTUSDT",
+   "kcex": "JCTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "JELLYJELLY",
+   "pair": "JELLYJELLYUSDT",
+   "aster": "JELLYJELLYUSDT",
+   "kcex": "JELLYJELLYUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "JPM",
+   "pair": "JPMUSDT",
+   "aster": "JPMUSDT",
+   "kcex": "JPMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "JTO",
+   "pair": "JTOUSDT",
+   "aster": "JTOUSDT",
+   "kcex": "JTOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "JUP",
+   "pair": "JUPUSDT",
+   "aster": "JUPUSDT",
+   "kcex": "JUPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "KAITO",
+   "pair": "KAITOUSDT",
+   "aster": "KAITOUSDT",
+   "kcex": "KAITOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "KAS",
+   "pair": "KASUSDT",
+   "aster": "KASUSDT",
+   "kcex": "KASUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "KAT",
+   "pair": "KATUSDT",
+   "aster": "KATUSDT",
+   "kcex": "KATUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "KGEN",
+   "pair": "KGENUSDT",
+   "aster": "KGENUSDT",
+   "kcex": "KGENUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "KITE",
+   "pair": "KITEUSDT",
+   "aster": "KITEUSDT",
+   "kcex": "KITEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "KNC",
+   "pair": "KNCUSDT",
+   "aster": "KNCUSDT",
+   "kcex": "KNCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "KOMA",
+   "pair": "KOMAUSDT",
+   "aster": "KOMAUSDT",
+   "kcex": "KOMAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "KORU",
+   "pair": "KORUUSDT",
+   "aster": "KORUUSDT",
+   "kcex": "KORUUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "KSTR",
+   "pair": "KSTRUSDT",
+   "aster": "KSTRUSDT",
+   "kcex": "KSTRUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "KUAISHOU",
+   "pair": "KUAISHOUUSDT",
+   "aster": "KUAISHOUUSDT",
+   "kcex": "KUAISHOUUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "LA",
+   "pair": "LAUSDT",
+   "aster": "LAUSDT",
+   "kcex": "LAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LAB",
+   "pair": "LABUSDT",
+   "aster": "LABUSDT",
+   "kcex": "LABUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "LAYER",
+   "pair": "LAYERUSDT",
+   "aster": "LAYERUSDT",
+   "kcex": "LAYERUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LDO",
+   "pair": "LDOUSDT",
+   "aster": "LDOUSDT",
+   "kcex": "LDOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LIGHT",
+   "pair": "LIGHTUSDT",
+   "aster": "LIGHTUSDT",
+   "kcex": "LIGHTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "LINEA",
+   "pair": "LINEAUSDT",
+   "aster": "LINEAUSDT",
+   "kcex": "LINEAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LINK",
+   "pair": "LINKUSDT",
+   "aster": "LINKUSDT",
+   "kcex": "LINKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LISTA",
+   "pair": "LISTAUSDT",
+   "aster": "LISTAUSDT",
+   "kcex": "LISTAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LIT",
+   "pair": "LITUSDT",
+   "aster": "LITUSDT",
+   "kcex": "LITUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "LITE",
+   "pair": "LITEUSDT",
+   "aster": "LITEUSDT",
+   "kcex": "LITEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "LLY",
+   "pair": "LLYUSDT",
+   "aster": "LLYUSDT",
+   "kcex": "LLYUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "LPT",
+   "pair": "LPTUSDT",
+   "aster": "LPTUSDT",
+   "kcex": "LPTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LTC",
+   "pair": "LTCUSDT",
+   "aster": "LTCUSDT",
+   "kcex": "LTCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LUMIA",
+   "pair": "LUMIAUSDT",
+   "aster": "LUMIAUSDT",
+   "kcex": "LUMIAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LUNC",
+   "pair": "LUNCUSDT",
+   "aster": "1000LUNCUSDT",
+   "kcex": "LUNCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "LYN",
+   "pair": "LYNUSDT",
+   "aster": "LYNUSDT",
+   "kcex": "LYNUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "LYTE",
+   "pair": "LYTEUSDT",
+   "aster": "LYTEUSDT",
+   "kcex": "LYTEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "M",
+   "pair": "MUSDT",
+   "aster": "MUSDT",
+   "kcex": "MUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MAGMA",
+   "pair": "MAGMAUSDT",
+   "aster": "MAGMAUSDT",
+   "kcex": "MAGMAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MANA",
+   "pair": "MANAUSDT",
+   "aster": "MANAUSDT",
+   "kcex": "MANAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MANTA",
+   "pair": "MANTAUSDT",
+   "aster": "MANTAUSDT",
+   "kcex": "MANTAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MANTRA",
+   "pair": "MANTRAUSDT",
+   "aster": "MANTRAUSDT",
+   "kcex": "MANTRAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ME",
+   "pair": "MEUSDT",
+   "aster": "MEUSDT",
+   "kcex": "MEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MEGA",
+   "pair": "MEGAUSDT",
+   "aster": "MEGAUSDT",
+   "kcex": "MEGAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MEITUAN",
+   "pair": "MEITUANUSDT",
+   "aster": "MEITUANUSDT",
+   "kcex": "MEITUANUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "MELANIA",
+   "pair": "MELANIAUSDT",
+   "aster": "MELANIAUSDT",
+   "kcex": "MELANIAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MEME",
+   "pair": "MEMEUSDT",
+   "aster": "MEMEUSDT",
+   "kcex": "MEMEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MERL",
+   "pair": "MERLUSDT",
+   "aster": "MERLUSDT",
+   "kcex": "MERLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MET",
+   "pair": "METUSDT",
+   "aster": "METUSDT",
+   "kcex": "METUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "METIS",
+   "pair": "METISUSDT",
+   "aster": "METISUSDT",
+   "kcex": "METISUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MINIMAX",
+   "pair": "MINIMAXUSDT",
+   "aster": "MINIMAXUSDT",
+   "kcex": "MINIMAXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "MMT",
+   "pair": "MMTUSDT",
+   "aster": "MMTUSDT",
+   "kcex": "MMTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MON",
+   "pair": "MONUSDT",
+   "aster": "MONUSDT",
+   "kcex": "MONUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MOODENG",
+   "pair": "MOODENGUSDT",
+   "aster": "MOODENGUSDT",
+   "kcex": "MOODENGUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "MORPHO",
+   "pair": "MORPHOUSDT",
+   "aster": "MORPHOUSDT",
+   "kcex": "MORPHOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MOVE",
+   "pair": "MOVEUSDT",
+   "aster": "MOVEUSDT",
+   "kcex": "MOVEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MOVR",
+   "pair": "MOVRUSDT",
+   "aster": "MOVRUSDT",
+   "kcex": "MOVRUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MRNA",
+   "pair": "MRNAUSDT",
+   "aster": "MRNAUSDT",
+   "kcex": "MRNAUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "MRVL",
+   "pair": "MRVLUSDT",
+   "aster": "MRVLUSDT",
+   "kcex": "MRVLUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "MTL",
+   "pair": "MTLUSDT",
+   "aster": "MTLUSDT",
+   "kcex": "MTLUSDT.P",
+   "binance": true,
+   "mexc": false
+  },
+  {
+   "base": "MUBARAK",
+   "pair": "MUBARAKUSDT",
+   "aster": "MUBARAKUSDT",
+   "kcex": "MUBARAKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "MUU",
+   "pair": "MUUUSDT",
+   "aster": "MUUUSDT",
+   "kcex": "MUUUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "MYX",
+   "pair": "MYXUSDT",
+   "aster": "MYXUSDT",
+   "kcex": "MYXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "NAORIS",
+   "pair": "NAORISUSDT",
+   "aster": "NAORISUSDT",
+   "kcex": "NAORISUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "NATGAS",
+   "pair": "NATGASUSDT",
+   "aster": "NATGASUSDT",
+   "kcex": "NATGASUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "NBIS",
+   "pair": "NBISUSDT",
+   "aster": "NBISUSDT",
+   "kcex": "NBISUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "NEAR",
+   "pair": "NEARUSDT",
+   "aster": "NEARUSDT",
+   "kcex": "NEARUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "NIGHT",
+   "pair": "NIGHTUSDT",
+   "aster": "NIGHTUSDT",
+   "kcex": "NIGHTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "NIL",
+   "pair": "NILUSDT",
+   "aster": "NILUSDT",
+   "kcex": "NILUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "NOK",
+   "pair": "NOKUSDT",
+   "aster": "NOKUSDT",
+   "kcex": "NOKUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "NOM",
+   "pair": "NOMUSDT",
+   "aster": "NOMUSDT",
+   "kcex": "NOMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "NOT",
+   "pair": "NOTUSDT",
+   "aster": "NOTUSDT",
+   "kcex": "NOTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "NOW",
+   "pair": "NOWUSDT",
+   "aster": "NOWUSDT",
+   "kcex": "NOWUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "NVO",
+   "pair": "NVOUSDT",
+   "aster": "NVOUSDT",
+   "kcex": "NVOUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "O",
+   "pair": "OUSDT",
+   "aster": "OUSDT",
+   "kcex": "OUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "OGN",
+   "pair": "OGNUSDT",
+   "aster": "OGNUSDT",
+   "kcex": "OGNUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "OKB",
+   "pair": "OKBUSDT",
+   "aster": "OKBUSDT",
+   "kcex": "OKBUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ON",
+   "pair": "ONUSDT",
+   "aster": "ONUSDT",
+   "kcex": "ONUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ONDO",
+   "pair": "ONDOUSDT",
+   "aster": "ONDOUSDT",
+   "kcex": "ONDOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ONDS",
+   "pair": "ONDSUSDT",
+   "aster": "ONDSUSDT",
+   "kcex": "ONDSUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ONE",
+   "pair": "ONEUSDT",
+   "aster": "ONEUSDT",
+   "kcex": "ONEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ONT",
+   "pair": "ONTUSDT",
+   "aster": "ONTUSDT",
+   "kcex": "ONTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "OP",
+   "pair": "OPUSDT",
+   "aster": "OPUSDT",
+   "kcex": "OPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "OPEN",
+   "pair": "OPENUSDT",
+   "aster": "OPENUSDT",
+   "kcex": "OPENUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "OPENAI",
+   "pair": "OPENAIUSDT",
+   "aster": "OPENAIUSDT",
+   "kcex": "OPENAIUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "OPG",
+   "pair": "OPGUSDT",
+   "aster": "OPGUSDT",
+   "kcex": "OPGUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "OPN",
+   "pair": "OPNUSDT",
+   "aster": "OPNUSDT",
+   "kcex": "OPNUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PARTI",
+   "pair": "PARTIUSDT",
+   "aster": "PARTIUSDT",
+   "kcex": "PARTIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PAYP",
+   "pair": "PAYPUSDT",
+   "aster": "PAYPUSDT",
+   "kcex": "PAYPUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "PENDLE",
+   "pair": "PENDLEUSDT",
+   "aster": "PENDLEUSDT",
+   "kcex": "PENDLEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PENGU",
+   "pair": "PENGUUSDT",
+   "aster": "PENGUUSDT",
+   "kcex": "PENGUUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PEOPLE",
+   "pair": "PEOPLEUSDT",
+   "aster": "PEOPLEUSDT",
+   "kcex": "PEOPLEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PEPE",
+   "pair": "PEPEUSDT",
+   "aster": "1000PEPEUSDT",
+   "kcex": "PEPEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PHA",
+   "pair": "PHAUSDT",
+   "aster": "PHAUSDT",
+   "kcex": "PHAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PIEVERSE",
+   "pair": "PIEVERSEUSDT",
+   "aster": "PIEVERSEUSDT",
+   "kcex": "PIEVERSEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PIPPIN",
+   "pair": "PIPPINUSDT",
+   "aster": "PIPPINUSDT",
+   "kcex": "PIPPINUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PIXEL",
+   "pair": "PIXELUSDT",
+   "aster": "PIXELUSDT",
+   "kcex": "PIXELUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PLAY",
+   "pair": "PLAYUSDT",
+   "aster": "PLAYUSDT",
+   "kcex": "PLAYUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PLUME",
+   "pair": "PLUMEUSDT",
+   "aster": "PLUMEUSDT",
+   "kcex": "PLUMEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PNUT",
+   "pair": "PNUTUSDT",
+   "aster": "PNUTUSDT",
+   "kcex": "PNUTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "POL",
+   "pair": "POLUSDT",
+   "aster": "POLUSDT",
+   "kcex": "POLUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PONS",
+   "pair": "PONSUSDT",
+   "aster": "PONSUSDT",
+   "kcex": "PONSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "POPMART",
+   "pair": "POPMARTUSDT",
+   "aster": "POPMARTUSDT",
+   "kcex": "POPMARTUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "PORTAL",
+   "pair": "PORTALUSDT",
+   "aster": "PORTALUSDT",
+   "kcex": "PORTALUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "POWER",
+   "pair": "POWERUSDT",
+   "aster": "POWERUSDT",
+   "kcex": "POWERUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PRL",
+   "pair": "PRLUSDT",
+   "aster": "PRLUSDT",
+   "kcex": "PRLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PROM",
+   "pair": "PROMUSDT",
+   "aster": "PROMUSDT",
+   "kcex": "PROMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PROS",
+   "pair": "PROSUSDT",
+   "aster": "PROSUSDT",
+   "kcex": "PROSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "PROVE",
+   "pair": "PROVEUSDT",
+   "aster": "PROVEUSDT",
+   "kcex": "PROVEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PUMP",
+   "pair": "PUMPUSDT",
+   "aster": "PUMPUSDT",
+   "kcex": "PUMPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "PYTH",
+   "pair": "PYTHUSDT",
+   "aster": "PYTHUSDT",
+   "kcex": "PYTHUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "Q",
+   "pair": "QUSDT",
+   "aster": "QUSDT",
+   "kcex": "QUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "QNT",
+   "pair": "QNTUSDT",
+   "aster": "QNTUSDT",
+   "kcex": "QNTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "QNTX",
+   "pair": "QNTXUSDT",
+   "aster": "QNTXUSDT",
+   "kcex": "QNTXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "RARE",
+   "pair": "RAREUSDT",
+   "aster": "RAREUSDT",
+   "kcex": "RAREUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RATS",
+   "pair": "RATSUSDT",
+   "aster": "1000RATSUSDT",
+   "kcex": "RATSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "RAVE",
+   "pair": "RAVEUSDT",
+   "aster": "RAVEUSDT",
+   "kcex": "RAVEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "RE",
+   "pair": "REUSDT",
+   "aster": "REUSDT",
+   "kcex": "REUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RECALL",
+   "pair": "RECALLUSDT",
+   "aster": "RECALLUSDT",
+   "kcex": "RECALLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "RED",
+   "pair": "REDUSDT",
+   "aster": "REDUSDT",
+   "kcex": "REDUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RENDER",
+   "pair": "RENDERUSDT",
+   "aster": "RENDERUSDT",
+   "kcex": "RENDERUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RESOLV",
+   "pair": "RESOLVUSDT",
+   "aster": "RESOLVUSDT",
+   "kcex": "RESOLVUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "REZ",
+   "pair": "REZUSDT",
+   "aster": "REZUSDT",
+   "kcex": "REZUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RIF",
+   "pair": "RIFUSDT",
+   "aster": "RIFUSDT",
+   "kcex": "RIFUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RIVER",
+   "pair": "RIVERUSDT",
+   "aster": "RIVERUSDT",
+   "kcex": "RIVERUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "RIVN",
+   "pair": "RIVNUSDT",
+   "aster": "RIVNUSDT",
+   "kcex": "RIVNUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "RKLB",
+   "pair": "RKLBUSDT",
+   "aster": "RKLBUSDT",
+   "kcex": "RKLBUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ROBO",
+   "pair": "ROBOUSDT",
+   "aster": "ROBOUSDT",
+   "kcex": "ROBOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ROSE",
+   "pair": "ROSEUSDT",
+   "aster": "ROSEUSDT",
+   "kcex": "ROSEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RPL",
+   "pair": "RPLUSDT",
+   "aster": "RPLUSDT",
+   "kcex": "RPLUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "RSR",
+   "pair": "RSRUSDT",
+   "aster": "RSRUSDT",
+   "kcex": "RSRUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "S",
+   "pair": "SUSDT",
+   "aster": "SUSDT",
+   "kcex": "SUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SAGA",
+   "pair": "SAGAUSDT",
+   "aster": "SAGAUSDT",
+   "kcex": "SAGAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SAMSUNG",
+   "pair": "SAMSUNGUSDT",
+   "aster": "SAMSUNGUSDT",
+   "kcex": "SAMSUNGUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SAND",
+   "pair": "SANDUSDT",
+   "aster": "SANDUSDT",
+   "kcex": "SANDUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SAPIEN",
+   "pair": "SAPIENUSDT",
+   "aster": "SAPIENUSDT",
+   "kcex": "SAPIENUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SCR",
+   "pair": "SCRUSDT",
+   "aster": "SCRUSDT",
+   "kcex": "SCRUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SEI",
+   "pair": "SEIUSDT",
+   "aster": "SEIUSDT",
+   "kcex": "SEIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SENT",
+   "pair": "SENTUSDT",
+   "aster": "SENTUSDT",
+   "kcex": "SENTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SHELL",
+   "pair": "SHELLUSDT",
+   "aster": "SHELLUSDT",
+   "kcex": "SHELLUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SHIB",
+   "pair": "SHIBUSDT",
+   "aster": "1000SHIBUSDT",
+   "kcex": "SHIBUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SI",
+   "pair": "SIUSDT",
+   "aster": "SIUSDT",
+   "kcex": "SIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SIGN",
+   "pair": "SIGNUSDT",
+   "aster": "SIGNUSDT",
+   "kcex": "SIGNUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SIREN",
+   "pair": "SIRENUSDT",
+   "aster": "SIRENUSDT",
+   "kcex": "SIRENUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SKHY",
+   "pair": "SKHYUSDT",
+   "aster": "SKHYUSDT",
+   "kcex": "SKHYUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SKHYNIX",
+   "pair": "SKHYNIXUSDT",
+   "aster": "SKHYNIXUSDT",
+   "kcex": "SKHYNIXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SKR",
+   "pair": "SKRUSDT",
+   "aster": "SKRUSDT",
+   "kcex": "SKRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SKY",
+   "pair": "SKYUSDT",
+   "aster": "SKYUSDT",
+   "kcex": "SKYUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SKYAI",
+   "pair": "SKYAIUSDT",
+   "aster": "SKYAIUSDT",
+   "kcex": "SKYAIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SLX",
+   "pair": "SLXUSDT",
+   "aster": "SLXUSDT",
+   "kcex": "SLXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SNX",
+   "pair": "SNXUSDT",
+   "aster": "SNXUSDT",
+   "kcex": "SNXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SNXX",
+   "pair": "SNXXUSDT",
+   "aster": "SNXXUSDT",
+   "kcex": "SNXXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SOL",
+   "pair": "SOLUSDT",
+   "aster": "SOLUSDT",
+   "kcex": "SOLUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SOLV",
+   "pair": "SOLVUSDT",
+   "aster": "SOLVUSDT",
+   "kcex": "SOLVUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SOMI",
+   "pair": "SOMIUSDT",
+   "aster": "SOMIUSDT",
+   "kcex": "SOMIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SOON",
+   "pair": "SOONUSDT",
+   "aster": "SOONUSDT",
+   "kcex": "SOONUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SOXL",
+   "pair": "SOXLUSDT",
+   "aster": "SOXLUSDT",
+   "kcex": "SOXLUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SPACE",
+   "pair": "SPACEUSDT",
+   "aster": "SPACEUSDT",
+   "kcex": "SPACEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SPCX",
+   "pair": "SPCXUSDT",
+   "aster": "SPCXUSDT",
+   "kcex": "SPCXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SPK",
+   "pair": "SPKUSDT",
+   "aster": "SPKUSDT",
+   "kcex": "SPKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SPX",
+   "pair": "SPXUSDT",
+   "aster": "SPXUSDT",
+   "kcex": "SPXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SQD",
+   "pair": "SQDUSDT",
+   "aster": "SQDUSDT",
+   "kcex": "SQDUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "STABLE",
+   "pair": "STABLEUSDT",
+   "aster": "STABLEUSDT",
+   "kcex": "STABLEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "STAR",
+   "pair": "STARUSDT",
+   "aster": "STARUSDT",
+   "kcex": "STARUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "STBL",
+   "pair": "STBLUSDT",
+   "aster": "STBLUSDT",
+   "kcex": "STBLUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "STEEM",
+   "pair": "STEEMUSDT",
+   "aster": "STEEMUSDT",
+   "kcex": "STEEMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "STO",
+   "pair": "STOUSDT",
+   "aster": "STOUSDT",
+   "kcex": "STOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "STONK",
+   "pair": "STONKUSDT",
+   "aster": "STONKUSDT",
+   "kcex": "STONKUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "STRC",
+   "pair": "STRCUSDT",
+   "aster": "STRCUSDT",
+   "kcex": "STRCUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "STRK",
+   "pair": "STRKUSDT",
+   "aster": "STRKUSDT",
+   "kcex": "STRKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "STX",
+   "pair": "STXUSDT",
+   "aster": "STXUSDT",
+   "kcex": "STXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "STXX",
+   "pair": "STXXUSDT",
+   "aster": "STXXUSDT",
+   "kcex": "STXXUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "SUI",
+   "pair": "SUIUSDT",
+   "aster": "SUIUSDT",
+   "kcex": "SUIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SUSHI",
+   "pair": "SUSHIUSDT",
+   "aster": "SUSHIUSDT",
+   "kcex": "SUSHIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SWARMS",
+   "pair": "SWARMSUSDT",
+   "aster": "SWARMSUSDT",
+   "kcex": "SWARMSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "SXT",
+   "pair": "SXTUSDT",
+   "aster": "SXTUSDT",
+   "kcex": "SXTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SYN",
+   "pair": "SYNUSDT",
+   "aster": "SYNUSDT",
+   "kcex": "SYNUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "SYRUP",
+   "pair": "SYRUPUSDT",
+   "aster": "SYRUPUSDT",
+   "kcex": "SYRUPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TA",
+   "pair": "TAUSDT",
+   "aster": "TAUSDT",
+   "kcex": "TAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TAC",
+   "pair": "TACUSDT",
+   "aster": "TACUSDT",
+   "kcex": "TACUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TAG",
+   "pair": "TAGUSDT",
+   "aster": "TAGUSDT",
+   "kcex": "TAGUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TAIKO",
+   "pair": "TAIKOUSDT",
+   "aster": "TAIKOUSDT",
+   "kcex": "TAIKOUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TAKE",
+   "pair": "TAKEUSDT",
+   "aster": "TAKEUSDT",
+   "kcex": "TAKEUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TAO",
+   "pair": "TAOUSDT",
+   "aster": "TAOUSDT",
+   "kcex": "TAOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TENCENT",
+   "pair": "TENCENTUSDT",
+   "aster": "TENCENTUSDT",
+   "kcex": "TENCENTUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "THE",
+   "pair": "THEUSDT",
+   "aster": "THEUSDT",
+   "kcex": "THEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "THETA",
+   "pair": "THETAUSDT",
+   "aster": "THETAUSDT",
+   "kcex": "THETAUSDT.P",
+   "binance": true,
+   "mexc": false
+  },
+  {
+   "base": "TIA",
+   "pair": "TIAUSDT",
+   "aster": "TIAUSDT",
+   "kcex": "TIAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TLM",
+   "pair": "TLMUSDT",
+   "aster": "TLMUSDT",
+   "kcex": "TLMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TMX",
+   "pair": "TMXUSDT",
+   "aster": "TMXUSDT",
+   "kcex": "TMXUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TNSR",
+   "pair": "TNSRUSDT",
+   "aster": "TNSRUSDT",
+   "kcex": "TNSRUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TOSHI",
+   "pair": "TOSHIUSDT",
+   "aster": "TOSHIUSDT",
+   "kcex": "TOSHIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TOWNS",
+   "pair": "TOWNSUSDT",
+   "aster": "TOWNSUSDT",
+   "kcex": "TOWNSUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TQQQ",
+   "pair": "TQQQUSDT",
+   "aster": "TQQQUSDT",
+   "kcex": "TQQQUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "TRADOOR",
+   "pair": "TRADOORUSDT",
+   "aster": "TRADOORUSDT",
+   "kcex": "TRADOORUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TRB",
+   "pair": "TRBUSDT",
+   "aster": "TRBUSDT",
+   "kcex": "TRBUSDT.P",
+   "binance": true,
+   "mexc": false
+  },
+  {
+   "base": "TREE",
+   "pair": "TREEUSDT",
+   "aster": "TREEUSDT",
+   "kcex": "TREEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TRIA",
+   "pair": "TRIAUSDT",
+   "aster": "TRIAUSDT",
+   "kcex": "TRIAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TRUMP",
+   "pair": "TRUMPUSDT",
+   "aster": "TRUMPUSDT",
+   "kcex": "TRUMPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TRUST",
+   "pair": "TRUSTUSDT",
+   "aster": "TRUSTUSDT",
+   "kcex": "TRUSTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TRUTH",
+   "pair": "TRUTHUSDT",
+   "aster": "TRUTHUSDT",
+   "kcex": "TRUTHUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "TRX",
+   "pair": "TRXUSDT",
+   "aster": "TRXUSDT",
+   "kcex": "TRXUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TST",
+   "pair": "TSTUSDT",
+   "aster": "TSTUSDT",
+   "kcex": "TSTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TURBO",
+   "pair": "TURBOUSDT",
+   "aster": "TURBOUSDT",
+   "kcex": "TURBOUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TURTLE",
+   "pair": "TURTLEUSDT",
+   "aster": "TURTLEUSDT",
+   "kcex": "TURTLEUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "TUT",
+   "pair": "TUTUSDT",
+   "aster": "TUTUSDT",
+   "kcex": "TUTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "UAI",
+   "pair": "UAIUSDT",
+   "aster": "UAIUSDT",
+   "kcex": "UAIUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "UB",
+   "pair": "UBUSDT",
+   "aster": "UBUSDT",
+   "kcex": "UBUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "UMA",
+   "pair": "UMAUSDT",
+   "aster": "UMAUSDT",
+   "kcex": "UMAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "UNI",
+   "pair": "UNIUSDT",
+   "aster": "UNIUSDT",
+   "kcex": "UNIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "UNITREE",
+   "pair": "UNITREEUSDT",
+   "aster": "UNITREEUSDT",
+   "kcex": "UNITREEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "UP",
+   "pair": "UPUSDT",
+   "aster": "UPUSDT",
+   "kcex": "UPUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "URNM",
+   "pair": "URNMUSDT",
+   "aster": "URNMUSDT",
+   "kcex": "URNMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "US",
+   "pair": "USUSDT",
+   "aster": "USUSDT",
+   "kcex": "USUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "USAR",
+   "pair": "USARUSDT",
+   "aster": "USARUSDT",
+   "kcex": "USARUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "USELESS",
+   "pair": "USELESSUSDT",
+   "aster": "USELESSUSDT",
+   "kcex": "USELESSUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "UVXY",
+   "pair": "UVXYUSDT",
+   "aster": "UVXYUSDT",
+   "kcex": "UVXYUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "V",
+   "pair": "VUSDT",
+   "aster": "VUSDT",
+   "kcex": "VUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "VANA",
+   "pair": "VANAUSDT",
+   "aster": "VANAUSDT",
+   "kcex": "VANAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "VELVET",
+   "pair": "VELVETUSDT",
+   "aster": "VELVETUSDT",
+   "kcex": "VELVETUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "VIRTUAL",
+   "pair": "VIRTUALUSDT",
+   "aster": "VIRTUALUSDT",
+   "kcex": "VIRTUALUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "VVV",
+   "pair": "VVVUSDT",
+   "aster": "VVVUSDT",
+   "kcex": "VVVUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "W",
+   "pair": "WUSDT",
+   "aster": "WUSDT",
+   "kcex": "WUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "WAL",
+   "pair": "WALUSDT",
+   "aster": "WALUSDT",
+   "kcex": "WALUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "WDC",
+   "pair": "WDCUSDT",
+   "aster": "WDCUSDT",
+   "kcex": "WDCUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "WET",
+   "pair": "WETUSDT",
+   "aster": "WETUSDT",
+   "kcex": "WETUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "WIF",
+   "pair": "WIFUSDT",
+   "aster": "WIFUSDT",
+   "kcex": "WIFUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "WLD",
+   "pair": "WLDUSDT",
+   "aster": "WLDUSDT",
+   "kcex": "WLDUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "WLFI",
+   "pair": "WLFIUSDT",
+   "aster": "WLFIUSDT",
+   "kcex": "WLFIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "WMT",
+   "pair": "WMTUSDT",
+   "aster": "WMTUSDT",
+   "kcex": "WMTUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "XAI",
+   "pair": "XAIUSDT",
+   "aster": "XAIUSDT",
+   "kcex": "XAIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "XAN",
+   "pair": "XANUSDT",
+   "aster": "XANUSDT",
+   "kcex": "XANUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "XDP",
+   "pair": "XDPUSDT",
+   "aster": "XDPUSDT",
+   "kcex": "XDPUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "XIAOMI",
+   "pair": "XIAOMIUSDT",
+   "aster": "XIAOMIUSDT",
+   "kcex": "XIAOMIUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "XLE",
+   "pair": "XLEUSDT",
+   "aster": "XLEUSDT",
+   "kcex": "XLEUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "XLM",
+   "pair": "XLMUSDT",
+   "aster": "XLMUSDT",
+   "kcex": "XLMUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "XMR",
+   "pair": "XMRUSDT",
+   "aster": "XMRUSDT",
+   "kcex": "XMRUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "XNY",
+   "pair": "XNYUSDT",
+   "aster": "XNYUSDT",
+   "kcex": "XNYUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "XPIN",
+   "pair": "XPINUSDT",
+   "aster": "XPINUSDT",
+   "kcex": "XPINUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "XPL",
+   "pair": "XPLUSDT",
+   "aster": "XPLUSDT",
+   "kcex": "XPLUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "XRP",
+   "pair": "XRPUSDT",
+   "aster": "XRPUSDT",
+   "kcex": "XRPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "YB",
+   "pair": "YBUSDT",
+   "aster": "YBUSDT",
+   "kcex": "YBUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "YFI",
+   "pair": "YFIUSDT",
+   "aster": "YFIUSDT",
+   "kcex": "YFIUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "YGG",
+   "pair": "YGGUSDT",
+   "aster": "YGGUSDT",
+   "kcex": "YGGUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZAMA",
+   "pair": "ZAMAUSDT",
+   "aster": "ZAMAUSDT",
+   "kcex": "ZAMAUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZBT",
+   "pair": "ZBTUSDT",
+   "aster": "ZBTUSDT",
+   "kcex": "ZBTUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZCAT",
+   "pair": "ZCATUSDT",
+   "aster": "ZCATUSDT",
+   "kcex": "ZCATUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ZEC",
+   "pair": "ZECUSDT",
+   "aster": "ZECUSDT",
+   "kcex": "ZECUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZEN",
+   "pair": "ZENUSDT",
+   "aster": "ZENUSDT",
+   "kcex": "ZENUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZEREBRO",
+   "pair": "ZEREBROUSDT",
+   "aster": "ZEREBROUSDT",
+   "kcex": "ZEREBROUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ZEST",
+   "pair": "ZESTUSDT",
+   "aster": "ZESTUSDT",
+   "kcex": "ZESTUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ZHIPU",
+   "pair": "ZHIPUUSDT",
+   "aster": "ZHIPUUSDT",
+   "kcex": "ZHIPUUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ZIL",
+   "pair": "ZILUSDT",
+   "aster": "ZILUSDT",
+   "kcex": "ZILUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZK",
+   "pair": "ZKUSDT",
+   "aster": "ZKUSDT",
+   "kcex": "ZKUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZKC",
+   "pair": "ZKCUSDT",
+   "aster": "ZKCUSDT",
+   "kcex": "ZKCUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZKP",
+   "pair": "ZKPUSDT",
+   "aster": "ZKPUSDT",
+   "kcex": "ZKPUSDT.P",
+   "binance": true,
+   "mexc": true
+  },
+  {
+   "base": "ZM",
+   "pair": "ZMUSDT",
+   "aster": "ZMUSDT",
+   "kcex": "ZMUSDT.P",
+   "binance": false,
+   "mexc": false
+  },
+  {
+   "base": "ZORA",
+   "pair": "ZORAUSDT",
+   "aster": "ZORAUSDT",
+   "kcex": "ZORAUSDT.P",
+   "binance": false,
+   "mexc": true
+  },
+  {
+   "base": "ZRO",
+   "pair": "ZROUSDT",
+   "aster": "ZROUSDT",
+   "kcex": "ZROUSDT.P",
+   "binance": true,
+   "mexc": true
+  }
+ ],
+ "missing_data": [
+  "AAOI",
+  "ADBE",
+  "AGPU",
+  "AMAT",
+  "ANTHROPIC",
+  "ARC",
+  "ARM",
+  "ASML",
+  "ASTS",
+  "AXTI",
+  "BBX",
+  "BE",
+  "BMNR",
+  "BRKB",
+  "BX",
+  "CBRS",
+  "COHR",
+  "COST",
+  "CRDO",
+  "CRM",
+  "CRWD",
+  "CRWV",
+  "CSCO",
+  "CXMT",
+  "DELL",
+  "DKNG",
+  "DRAM",
+  "EBAY",
+  "EWJ",
+  "EWY",
+  "EWZ",
+  "FLNC",
+  "FUN",
+  "GLW",
+  "HD",
+  "HIMS",
+  "HPE",
+  "HYUNDAI",
+  "IREN",
+  "IWM",
+  "JPM",
+  "KORU",
+  "KSTR",
+  "KUAISHOU",
+  "LITE",
+  "LLY",
+  "LYTE",
+  "MEITUAN",
+  "MINIMAX",
+  "MRNA",
+  "MRVL",
+  "MUU",
+  "NATGAS",
+  "NBIS",
+  "NOK",
+  "NOW",
+  "NVO",
+  "ONDS",
+  "OPENAI",
+  "PAYP",
+  "POPMART",
+  "QNTX",
+  "RIVN",
+  "RKLB",
+  "SAMSUNG",
+  "SKHY",
+  "SKHYNIX",
+  "SNXX",
+  "SOXL",
+  "SPCX",
+  "STRC",
+  "STXX",
+  "TENCENT",
+  "TQQQ",
+  "UNITREE",
+  "URNM",
+  "USAR",
+  "UVXY",
+  "V",
+  "WDC",
+  "WMT",
+  "XIAOMI",
+  "XLE",
+  "ZHIPU",
+  "ZM"
+ ]
+}

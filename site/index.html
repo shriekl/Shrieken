@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#080b10">
+  <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://data-api.binance.vision https://api.mexc.com https://proxy.cors.dev; img-src 'self' data: blob:; base-uri 'none'; object-src 'none'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%239aa8ff'/%3E%3C/svg%3E">
+  <title>Shriek Luna · Trendline Scanner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="gate" class="gate">
+    <form id="gate-form" class="gate-card" autocomplete="on">
+      <p class="brand">Shriek <span>Luna</span></p>
+      <h1>Trendline scanner</h1>
+      <p id="gate-copy" class="muted">Enter the site password. Signals stay encrypted until this browser unlocks them.</p>
+      <label class="field">
+        <span class="sr">Password</span>
+        <input id="password" type="password" name="password" placeholder="Password" autocomplete="current-password" required>
+      </label>
+      <label class="remember"><input id="remember" type="checkbox" checked> Remember on this device</label>
+      <button id="unlock" type="submit">Unlock</button>
+      <p id="gate-msg" class="gate-msg" role="status"></p>
+    </form>
+  </section>
+
+  <div id="app" class="app" hidden>
+    <header>
+      <div class="top">
+        <div class="brand">Shriek <span>Luna</span></div>
+        <button id="lock" class="text-btn" type="button">Lock</button>
+      </div>
+      <div class="pills" id="pills" role="tablist">
+        <button type="button" class="pill" data-tf="15m">15m</button>
+        <button type="button" class="pill" data-tf="30m">30m</button>
+        <button type="button" class="pill" data-tf="1h">1h</button>
+        <button type="button" class="pill" data-tf="4h">4h</button>
+        <button type="button" class="pill" data-tf="12h">12h</button>
+        <button type="button" class="pill" data-tf="1d">1d</button>
+        <button type="button" class="pill" data-tf="3d">3d</button>
+        <button type="button" class="pill" data-tf="1w">1w</button>
+        <button type="button" class="pill" data-tf="1M">1M</button>
+      </div>
+      <div class="chips">
+        <button type="button" class="chip on" data-filter="all">All</button>
+        <button type="button" class="chip" data-filter="prio">Retest + volume</button>
+        <button type="button" class="chip" data-filter="zone">In zone</button>
+        <button type="button" class="chip" data-filter="fresh">Fresh breakout</button>
+        <span class="sep"></span>
+        <button type="button" class="chip on" data-side="ALL">Both</button>
+        <button type="button" class="chip" data-side="LONG">Long</button>
+        <button type="button" class="chip" data-side="SHORT">Short</button>
+        <span class="sep"></span>
+        <label class="rank">
+          <span class="sr">Minimum rank</span>
+          <select id="min-rank">
+            <option value="0">Rank any</option>
+            <option value="5">5+</option>
+            <option value="6">6+</option>
+            <option value="7" selected>7+</option>
+            <option value="8">8+</option>
+            <option value="9">9+</option>
+          </select>
+        </label>
+      </div>
+    </header>
+    <main>
+      <div class="bar">
+        <p id="when"></p>
+        <p id="count"></p>
+      </div>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden></p>
+    </main>
+  </div>
+
+  <div id="modal" class="modal" hidden>
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="chart-title">
+      <div class="sheet-head">
+        <h2 id="chart-title">Chart</h2>
+        <select id="chart-tf" aria-label="Chart timeframe"></select>
+        <a id="tv" href="#" target="_blank" rel="noopener noreferrer">TradingView</a>
+        <button id="close-chart" class="text-btn" type="button" aria-label="Close">Close</button>
+      </div>
+      <div class="sheet-body">
+        <div id="chart"></div>
+        <aside id="details"></aside>
+      </div>
+      <p id="chart-note"></p>
+    </div>
+  </div>
+  <script src="vendor/lightweight-charts.standalone.production.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

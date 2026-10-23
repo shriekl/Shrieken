@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+raw/
+*.json.tmp
+web_latest_*.json
+latest.json
+summary.txt
+state.json
+state_web.json
+.password
+.DS_Store
